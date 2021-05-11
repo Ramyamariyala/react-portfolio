@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
+// import Github from "./Github";
 import Techstack from "./Teachstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assests/about.png";
@@ -43,7 +43,7 @@ function About(){
                     <strong className="purple">Tools</strong> I use
                 </h1>
                 <Toolstack />
-                <Github />
+                {/* <Github /> */}
             </Container>
         </Container>
     )
