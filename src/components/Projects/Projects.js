@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import tuneup from "../../Assets/Projects/Tuneup.png";
+import weatherDashboard from "../../Assets/Projects/weather.png";
 import blogme from "../../Assets/Projects/Blogme.png";
 
 function Projects() {
@@ -35,21 +35,28 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={tuneup}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Tune up!!!!"
+              description="Tune Up is an app of simplicity that searches artist albums and lyrics. 
+              Our app features a search engine that returns a visual list of the inputted artist, 
+              as well as text lyrics of selected songs.Our app helps the user to read the lyrics easily."
+              
+              link="https://github.com/jkelly101/tune-up-music-project"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={weatherDashboard}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Weather Dashboard"
+              description="Our weather dashboard with form with inputs the user for searches for a city 
+              is been presented with current and future conditions for that city. When user have a view 
+              current weather conditions for that city then the user is presented with the city name, 
+              the date,an icon representation of weather conditions, the temperature, the humidity, 
+              the wind speed,and the UV index WHEN user view the UV index."
+              link="https://github.com/Ramyamariyala/weatherDashboard"
             />
           </Col>
         </Row>
