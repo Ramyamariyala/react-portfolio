@@ -4,11 +4,11 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/RamyaMariyalaCV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+  const uri = "";
   const [spojRank, upadteSpojRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
@@ -39,7 +39,7 @@ function Resume() {
           </Button>
         </Row>
         <Row className="resume">
-          <Col md={6} className="resume-left">
+          {/* <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="JUNIOR ML ENGINEER [Omdena]"
@@ -62,33 +62,23 @@ function Resume() {
                 "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
             />
-          </Col>
+          </Col> */}
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="Rutgers Coding Bootcamp FullStack "
+              date="2020 - 2021 "
+              content={["Grading: A+"]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              title="Certification in AUTOCAD (Advanced 3D)."
+              date="2015"
+              content={["Grading: A+"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
+              title=" Bachelor of Engineering ( Osmania University) "
               date="2005 - 2015"
               content={["Precentage: 86%"]}
-            />
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
-              ]}
             />
           </Col>
         </Row>
