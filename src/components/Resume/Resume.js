@@ -9,10 +9,10 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   const uri = "";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
+  const [ upadteSpojRank] = useState(0);
+  const [ upadteHackerank] = useState(0);
+  const [ upadateSem] = useState(0);
+  const [ upadteCgpa] = useState(0);
 
   useEffect(() => {
     axios
@@ -39,30 +39,23 @@ function Resume() {
           </Button>
         </Row>
         <Row className="resume">
-          {/* <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+          <Col md={6} className="resume-left">
+            <h3 className="resume-title">Projects</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Blogme!!!"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-              ]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
-              content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Create an environment where a user can make a blog to share their experiences and opinions. They can receive feedback through comments from other users.",
+                " We wanted to forum to express our ideas and opinions.BlogMe gives a much simpler and concise option for users just wanting to publish their thoughts.",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Tune up!!!!"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Tune Up is an app of simplicity that searches artist albums and lyrics. Our app features a search engine that returns a visual list of the inputted artist, as well as text lyrics of selected songs.",
+                " Our app helps the user to read the lyrics easily. ",
               ]}
             />
-          </Col> */}
+          </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
