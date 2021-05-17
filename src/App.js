@@ -27,12 +27,12 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        <Switch>
+    
           <Route exact path="/react-portfolio/"  component={Home} />
           <Route exact path="/project" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/resume" component={Resume} />
-        </Switch>
+
         <Footer />
       </div>
     </Router>
