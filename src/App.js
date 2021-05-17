@@ -29,6 +29,7 @@ function App() {
         <ScrollToTop />
     
           <Route exact path="/react-portfolio/"  component={Home} />
+          <Route exact path="/"  component={Home} />
           <Route exact path="/project" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/resume" component={Resume} />
