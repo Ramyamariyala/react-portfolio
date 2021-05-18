@@ -13,8 +13,8 @@
 
 * Links
 
-[RamyaMariyala Portfolio](https://ramyamariyala.github.io/react-portfolio/)
-[Github](https://github.com/Ramyamariyala/react-portfolio.git)
+- [RamyaMariyala Portfolio](https://ramyamariyala.github.io/react-portfolio/)
+- [Github](https://github.com/Ramyamariyala/react-portfolio.git)
 
 * Usage
 
@@ -38,8 +38,8 @@
 
 * Contact information
 
-Name : Ramya Mariyala
-Email: ramya.mariyala@gmail.com
+- Name : Ramya Mariyala
+- E-mail: ramya.mariyala@gmail.com
 
 
 
