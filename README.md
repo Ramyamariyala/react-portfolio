@@ -9,7 +9,7 @@
 
 * Demo
 
-![Demo](Images\portfolio.gif)
+![Demo](Images/portfolio.gif)
 
 * Links
 
