@@ -71,6 +71,7 @@ function Resume() {
             <Resumecontent
               title=" Bachelor of Engineering ( Osmania University) "
               date="2005 - 2015"
+              content={["Grading: A"]}
             />
           </Col>
         </Row>
